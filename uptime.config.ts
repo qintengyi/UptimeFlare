@@ -75,7 +75,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'pic',
       name: '图床服务',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://pic.xiaoyyua.top',
       statusPageLink: 'https://pic.xiaoyyua.top',
       hideLatencyChart: false,
