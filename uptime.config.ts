@@ -65,7 +65,7 @@ const workerConfig: WorkerConfig = {
       method: 'HEAD',
       target: 'https://api.xiaoyyua.top/',
       hideLatencyChart: false,
-      expectedCodes: [200],
+      expectedCodes: [404],
       timeout: 20000,
     },
     {
