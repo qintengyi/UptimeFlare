@@ -64,7 +64,7 @@ const workerConfig: WorkerConfig = {
       name: '解析服务',
       method: 'HEAD',
       target: 'https://api.xiaoyyua.top/',
-      hideLatencyChart: false,
+      hideLatencyChart: true,
       expectedCodes: [404],
       timeout: 20000,
     },
