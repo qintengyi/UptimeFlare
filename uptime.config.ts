@@ -58,7 +58,7 @@ const workerConfig: WorkerConfig = {
       method: 'TCP_PING',
       target: 'mc.xiaoyyua.top:13719',
       hideLatencyChart: true,
-      timeout: 5000,
+      timeout: 10000,
     },
     {
       id: 'api',
@@ -67,7 +67,7 @@ const workerConfig: WorkerConfig = {
       target: 'https://api.xiaoyyua.top/',
       hideLatencyChart: true,
       expectedCodes: [404],
-      timeout: 20000,
+      timeout: 30000,
     },
     {
       id: 'llonebot',
@@ -76,7 +76,7 @@ const workerConfig: WorkerConfig = {
       target: 'https://llonebot.xiaoyyua.top',
       hideLatencyChart: true,
       expectedCodes: [200],
-      timeout: 20000,
+      timeout: 30000,
     },
     {
       id: 'pay',
@@ -85,7 +85,7 @@ const workerConfig: WorkerConfig = {
       target: 'https://pay.xiaoyyua.top',
       hideLatencyChart: true,
       expectedCodes: [200],
-      timeout: 20000,
+      timeout: 30000,
     },
     {
       id: 'nas',
@@ -94,7 +94,7 @@ const workerConfig: WorkerConfig = {
       target: 'https://fn.xiaoyyua.top/',
       hideLatencyChart: true,
       expectedCodes: [200],
-      timeout: 20000,
+      timeout: 30000,
     },
     {
       id: 'pic',
@@ -104,7 +104,7 @@ const workerConfig: WorkerConfig = {
       statusPageLink: 'https://pic.xiaoyyua.top',
       hideLatencyChart: true,
       expectedCodes: [200],
-      timeout: 20000,
+      timeout: 30000,
     },
     {
       id: 'alist',
@@ -114,7 +114,7 @@ const workerConfig: WorkerConfig = {
       statusPageLink: 'https://alist.xiaoyyua.top',
       hideLatencyChart: true,
       expectedCodes: [200],
-      timeout: 20000,
+      timeout: 30000,
     },
     {
       id: 'blog',
@@ -124,7 +124,7 @@ const workerConfig: WorkerConfig = {
       statusPageLink: 'https://blog.xiaoyyua.top',
       hideLatencyChart: true,
       expectedCodes: [200],
-      timeout: 20000,
+      timeout: 30000,
     },
     {
       id: 'shop',
@@ -134,7 +134,7 @@ const workerConfig: WorkerConfig = {
       statusPageLink: 'https://shop.xiaoyyua.top',
       hideLatencyChart: true,
       expectedCodes: [200],
-      timeout: 20000,
+      timeout: 30000,
     }
   ],
   notification: {
