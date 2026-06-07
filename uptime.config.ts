@@ -79,6 +79,15 @@ const workerConfig: WorkerConfig = {
       timeout: 60000,
     },
     {
+      id: 'pir',
+      name: '红外云端',
+      method: 'HEAD',
+      target: 'https://pir.xiaoyyua.top',
+      hideLatencyChart: true,
+      expectedCodes: [200],
+      timeout: 60000,
+    },
+    {
       id: 'pay',
       name: '支付服务',
       method: 'HEAD',
