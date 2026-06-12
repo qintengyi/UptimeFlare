@@ -83,6 +83,7 @@ const workerConfig: WorkerConfig = {
       name: '红外云端',
       method: 'HEAD',
       target: 'https://pir.xiaoyyua.top',
+      statusPageLink: 'https://pir.xiaoyyua.top',
       hideLatencyChart: true,
       expectedCodes: [200],
       timeout: 60000,
